@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/circlemenu"
+        android:layout_width="352dp"
+        android:layout_height="456dp"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="-25dp"
+        android:layout_marginRight="-25dp"
+        android:text="Dar Cor ao Patrimonio"
+        android:textColor="#0427A5"
+        android:textSize="24sp"
+        app:fontFamily="@font/bowlby_one" />
+
+
+</RelativeLayout>
